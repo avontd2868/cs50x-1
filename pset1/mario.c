@@ -3,8 +3,9 @@
 
 int main(void)
 {
-    int height, num_blanks, num_xs, base, i;
-
+    int num_blanks, num_xs, base, i;
+    int height = 0;
+    
     while ( height <= 0 || height > 23 ){
         printf("Height: ");
         height = GetInt();
@@ -37,5 +38,7 @@ int main(void)
     }
 
     printf("\n");
+
+    return 0;
 }
 
